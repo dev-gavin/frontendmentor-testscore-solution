@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="container">
+        <section class="result">
+          <h1 class="result__title">Your Result</h1>
+          <div class="result__score">
+            <span class="result__score-top"> 76 </span> of 100
+          </div>
+          <h3 class="result__word">Great</h3>
+          <p class="result__text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+      </div>
+      <summary class="summary">
+        <h2 class="summary__heading">Summary</h2>
+        <div class="summary__container">
+          <div class="summary__item reaction">
+            <div class="summary__item-left">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="reaction icon"
+              />
+              Reaction
+            </div>
+            <div class="summary__item-right">
+              <strong class="summary__item-score">80</strong> / 100
+            </div>
+          </div>
+
+          <div class="summary__item memory">
+            <div class="summary__item-left">
+              <img src="./assets/images/icon-memory.svg" alt="memory icon" />
+              Memory
+            </div>
+            <div class="summary__item-right">
+              <strong class="summary__item-score">92</strong> / 100
+            </div>
+          </div>
+
+          <div class="summary__item verbal">
+            <div class="summary__item-left">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="verbal icon"
+              />Verbal
+            </div>
+            <div class="summary__item-right">
+              <strong class="summary__item-score">61</strong> / 100
+            </div>
+          </div>
+
+          <div class="summary__item visual">
+            <div class="summary__item-left">
+              <img src="./assets/images/icon-visual.svg" alt="visual icon" />
+              Visual
+            </div>
+            <div class="summary__item-right">
+              <strong class="summary__item-score">72</strong> / 100
+            </div>
+          </div>
+        </div>
+        <button class="button">Continue</button>
+      </summary>
+    </main>
+  </body>
+</html>
